@@ -21,3 +21,14 @@ java and jenkins
    7. start the jenkins server
       systemctl start jenkins
       systemctl status jenkins
+      
+ #TERRAFROM INSTALLATION
+   1.go to terrafrom.io site then got downloads select linux 64 and copy url.
+   2.now open putty and connect to server and download terrafrom zip file using below commnad
+     $ sudo curl -O https://releases.hashicorp.com/terraform/0.12.18/terraform_0.12.18_linux_amd64.zip
+   3. unzip terrafrom zip file.
+      $unzip terrafromzipfile
+      now you will get terraform executable file, move this file into /etc/loacal/bin/
+   4. check terrafrom installed properly or not
+     $terraform 
+     $terraform -v
